@@ -1,0 +1,27 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CoN_2lxH.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/img/background.jpg": {
+    "file": "assets/background-l0sNRNKZ.js",
+    "src": "resources/img/background.jpg",
+    "isEntry": true
+  },
+  "resources/img/carte.jpeg": {
+    "file": "assets/carte-l0sNRNKZ.js",
+    "src": "resources/img/carte.jpeg",
+    "isEntry": true
+  },
+  "resources/img/photodemoi.jpg": {
+    "file": "assets/photodemoi-l0sNRNKZ.js",
+    "src": "resources/img/photodemoi.jpg",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D2jpX1vH.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
