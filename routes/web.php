@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ImagesController;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +26,11 @@ Route::get('/mon-cv', function(){
 Route::get('/mon-bts', function(){
     return view('bts');
 })->name('bts');
+
+Route::get('/realisations',function(){
+    return view('realisations');
+})->name('realisations');
+
+Route::controller(ImagesController::class)->group(function(){
+    Route::get('/realisation/image/{real}','index')->name('realisations.image');
+});

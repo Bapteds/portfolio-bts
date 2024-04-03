@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css','resources/js/flowbite.js'])
     </head>
     <body class="flex flex-row w-screen h-[100vh] bg-light-black">
         <div class="h-[100%] w-[15%]"></div>
