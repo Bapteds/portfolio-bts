@@ -9,14 +9,17 @@
         <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
             <a href="{{route('cv')}}" class="hover:scale-105  hover:text-button-vio hover:font-bold duration-200 {{Route::is('cv') ?'text-button-vio font-bold' :'' }} ">Mon CV</a>
         </div>
+        <!--<div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
+            <a href="{route('bts')}}" class="hover:scale-105  hover:text-button-vio hover:font-bold duration-200 {Route::is('bts') ?'text-button-vio font-bold' :'' }}">Mon BTS</a>
+        </div>-->
         <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
-            <a href="{{route('bts')}}" class="hover:scale-105  hover:text-button-vio hover:font-bold duration-200 {{Route::is('bts') ?'text-button-vio font-bold' :'' }}">Mon BTS</a>
-        </div>
-        <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
-            <a href="{{route('realisations')}}" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200">Mes réalisations</a>
+            <a href="{{route('realisations')}}" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200 {{Route::is('realisations') ?'text-button-vio font-bold' :'' }}">Mes réalisations</a>
         </div>
         <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
             <a href="#" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200">Ma veille technologique</a>
+        </div>
+        <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
+            <a href="mailto:eradesbapt@gmail.com" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200">Me contacter</a>
         </div>
     </div>
     <div class="h-[15%] w-[100%] flex items-center justify-center">

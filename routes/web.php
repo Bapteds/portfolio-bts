@@ -22,11 +22,11 @@ Route::get('/', function () {
 Route::get('/mon-cv', function(){
     return view('cv');
 })->name('cv');
-
+/*
 Route::get('/mon-bts', function(){
     return view('bts');
 })->name('bts');
-
+*/
 Route::get('/realisations',function(){
     return view('realisations');
 })->name('realisations');
@@ -34,3 +34,4 @@ Route::get('/realisations',function(){
 Route::controller(ImagesController::class)->group(function(){
     Route::get('/realisation/image/{real}','index')->name('realisations.image');
 });
+

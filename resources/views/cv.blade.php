@@ -1,6 +1,6 @@
 @extends('base')
 @section('content')
-    <div class="h-[200vh] w-[100%] overflow-y-scroll">
+    <div class="h-[150vh] w-[100%] overflow-y-scroll">
         <!-- Première page -->
         <div class="h-[100vh] w-[100%] flex flex-row ">
             <div class="h-[100vh]  w-[50%] flex flex-col items-center justify-around">
@@ -34,12 +34,12 @@
                     <div
                         class="h-[40%] w-[90%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[25%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
-                            <div class="w-[13%] flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-[20%] h-[40%] rounded-full bg-red-500 flex items-center justify-center">
+                            <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
+                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -106,12 +106,12 @@
                     <div
                         class="h-[40%] w-[90%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[25%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
-                            <div class="w-[13%] flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-[20%] h-[40%] rounded-full bg-red-500 flex items-center justify-center">
+                            <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
+                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -168,9 +168,23 @@
                                 <path fill="#ffffff"
                                     d="M11.108.024c-.274.004-.604.012-.737.023C6.727.361 3.468 2.518 1.578 5.86A12.53 12.53 0 0 0 .02 11.112c-.04.517-.02 1.745.035 2.208.306 2.682 1.353 5.06 3.07 6.965 1.962 2.173 4.586 3.467 7.437 3.663.42.032 1.043.04 1.02.012a2.404 2.404 0 0 0-.338-.074c-1.674-.33-3.388-1.13-4.777-2.232a12.345 12.345 0 0 1-2.45-2.636A12.388 12.388 0 0 1 1.883 12.5a12.414 12.414 0 0 1 .56-4.275c.785-2.522 2.37-4.726 4.475-6.228A11.074 11.074 0 0 1 11.155.122l.443-.098zm1.475.51C10.645.65 8.806 1.299 7.3 2.4 5.425 3.77 3.994 5.644 3.22 7.746c-.145.397-.282.82-.282.879 0 .012 3.828.024 10.31.024 8.464 0 10.316-.008 10.316-.036 0-.047-.153-.525-.283-.878a14.18 14.18 0 0 0-.82-1.722c-.4-.683-.91-1.373-1.474-1.992-1.651-1.82-3.593-2.934-5.82-3.334-.785-.141-1.8-.2-2.585-.153zM23.83 9.97c-.02 0-4.792 0-10.609.004l-10.574.008-.011.059a14.52 14.52 0 0 0-.134 1.243c0 .028 1.785.032 10.747.032H24v-.075c0-.102-.07-.792-.106-1.055-.02-.16-.04-.216-.063-.216zm-10.573 2.636c-9.37-.004-10.731 0-10.743.035-.02.04.024.557.075.973.02.157.035.298.035.314 0 .027 2.137.035 10.625.035h10.624l.024-.188c.043-.326.102-.97.094-1.067l-.008-.094zm.003 2.718c-8.883 0-10.322.004-10.322.035 0 .02.054.208.121.42A11.123 11.123 0 0 0 5.13 19.52c.282.342.945 1.036 1.228 1.287 1.568 1.4 3.247 2.216 5.18 2.53.605.094.887.113 1.75.11.91 0 1.298-.032 2.024-.177 2.11-.416 3.914-1.451 5.53-3.17 1.267-1.348 2.106-2.76 2.628-4.411l.117-.365z" />
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="h-[100%] w-[8%]" viewBox="0,0,256,256">
-                                <g fill="none" fill-rule="nonzero" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2l-20,11v24l20,11l20,-11v-24z"></path><path d="M12,33v-16l13,-7l13,7v16l-13,7z"></path><path d="M5,13l20,11v24"></path><path d="M45,13l-20,11"></path><path d="M25,2v8"></path><path d="M5,37l7,-4"></path><path d="M45,37l-7,-4"></path></g></g>
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="h-[100%] w-[8%]"
+                                viewBox="0,0,256,256">
+                                <g fill="none" fill-rule="nonzero" stroke="#ffffff" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.12,5.12)">
+                                        <path d="M25,2l-20,11v24l20,11l20,-11v-24z"></path>
+                                        <path d="M12,33v-16l13,-7l13,7v16l-13,7z"></path>
+                                        <path d="M5,13l20,11v24"></path>
+                                        <path d="M45,13l-20,11"></path>
+                                        <path d="M25,2v8"></path>
+                                        <path d="M5,37l7,-4"></path>
+                                        <path d="M45,37l-7,-4"></path>
+                                    </g>
+                                </g>
+                            </svg>
                         </div>
                     </div>
                 </div>
@@ -181,11 +195,11 @@
                         class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[5%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
                             <div class="w-[13%] flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-[20%] h-[40%] rounded-full bg-red-500 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-[20%] h-[40%] rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -209,7 +223,7 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg flex">BTS Service Informatique aux Organisations </h2>
+                                    <h1 class="font-semibold text-lg flex">BTS Service Informatique aux Organisations </h1>
                                         <h3 class="text-gray-800">Lycée Bonaparte - Toulon</h3>
                                 </div>
                             </div>
@@ -227,7 +241,7 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg flex">Permis B </h2>
+                                    <h1 class="font-semibold text-lg flex">Permis B </h1>
                                         <h3 class="text-gray-800">Hyères - Véhicule personnel</h3>
                                 </div>
                             </div>
@@ -246,7 +260,7 @@
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
                                     <h1 class="font-semibold text-lg flex">Baccalauréat - Mathématiques / Informatique
-                                        </h2>
+                                        </h1>
                                         <h3 class="text-gray-800">Lycée Constebelle - Hyères | Metion <span
                                                 class="underline">Assez Biens</span></h3>
                                 </div>
@@ -265,7 +279,7 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg flex">Brevet des collèges </h2>
+                                    <h1 class="font-semibold text-lg flex">Brevet des collèges </h1>
                                         <h3 class="text-gray-800">Établissement Fénelon - Toulon</h3>
                                 </div>
                             </div>
@@ -283,7 +297,7 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg flex">Niveau 1 de plongée sous marine </h2>
+                                    <h1 class="font-semibold text-lg flex">Niveau 1 de plongée sous marine </h1>
                                         <h3 class="text-gray-800">Club Nautica - Toulon</h3>
                                 </div>
                             </div>
@@ -294,7 +308,187 @@
 
         </div>
         <!-- Seconde page -->
-        <div class="h-[100vh] w-[100%]"></div>
+        <div class="h-[50vh] w-[100%] flex items-center flex-row justify-around">
+            <div class="h-[50vh] w-[70vh] bg-light-gray rounded-md shadow-sm flex items-center justify-center">
+                <div class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
+                    <div class="h-10 w-[95%] bg-light-gray rounded-t-md flex flex-row">
+                        <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
+                            <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                            </div>
+                            <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                            </div>
+                            <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                            </div>
+                        </div>
+                        <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
+                            <h1>Mes expériences professionelles</h1>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[90%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-6 space-y-4">
+
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[25%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <h1 class="font-semibold">En cours</h1>
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Alternance - État-major Force Aéronautique Navale
+                                    (ALAVIA) </h1>
+                                    <h3 class="text-gray-800">Marine Nationale - Toulon</h3>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[25%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <h1 class="font-semibold">En cours</h1>
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Réserviste Marine Nationale</h1>
+                                    <h3 class="text-gray-800">Centre de détente du Cap Brun - Toulon</h3>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[25%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <h1 class="font-semibold">2018</h1>
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Stage d’observation
+                                    </h1>
+                                    <h3 class="text-gray-800">Délégation à la Mer et au Littoral (DML) - Toulon </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[50vh] w-[70vh] bg-light-gray rounded-md shadow-sm flex items-center justify-center">
+                <div class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
+                    <div class="h-10 w-[95%] bg-light-gray rounded-t-md flex flex-row">
+                        <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
+                            <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                            </div>
+                            <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                            </div>
+                            <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                            </div>
+                        </div>
+                        <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
+                            <h1>Mes centres d'intêrets</h1>
+                        </div>
+                    </div>
+                    <div
+                        class="h-[90%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-6 space-y-4 overflow-y-scroll">
+
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[15%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Mécanique, Automobile, Moto ... </h1>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[15%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Éléctronique, Maçonerie, Plomberie ... </h1>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[15%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Informatique, HardWare, Software ...
+                                    </h1>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[15%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Les nouvelles téchnologies ...</h1>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[95%] flex flex-row bg-blanc border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            <div class="flex flex-row w-[15%] h-[90%] items-center">
+                                <div class="flex flew-row items-center justify-around pl-2">
+                                    <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.75 9.0251H14.5C14.5 9.01035 14.4996 8.9956 14.4987 8.98087L13.75 9.0251ZM14.2847 8.10156L13.9503 7.43023L14.2847 8.10156ZM15.344 8.2311L15.8446 7.67259C15.8399 7.66838 15.8351 7.66424 15.8303 7.66015L15.344 8.2311ZM18.65 11.1941L19.1569 10.6413L19.1506 10.6356L18.65 11.1941ZM18.65 12.7831L19.1507 13.3416L19.1569 13.3359L18.65 12.7831ZM15.344 15.7471L15.8303 16.3181C15.8352 16.3139 15.8399 16.3098 15.8447 16.3055L15.344 15.7471ZM14.2847 15.8767L14.6191 15.2053L14.6191 15.2053L14.2847 15.8767ZM13.75 14.9531L14.4987 14.9973C14.4996 14.9826 14.5 14.9679 14.5 14.9531H13.75ZM13.75 12.7391C14.1642 12.7391 14.5 12.4033 14.5 11.9891C14.5 11.5749 14.1642 11.2391 13.75 11.2391V12.7391ZM5 11.2391C4.58579 11.2391 4.25 11.5749 4.25 11.9891C4.25 12.4033 4.58579 12.7391 5 12.7391V11.2391ZM14.5 11.9891V9.0251H13V11.9891H14.5ZM14.4987 8.98087C14.4935 8.89368 14.5409 8.81182 14.6191 8.77288L13.9503 7.43023C13.3342 7.73714 12.9607 8.38219 13.0013 9.06934L14.4987 8.98087ZM14.6191 8.77288C14.6973 8.73394 14.7912 8.74542 14.8577 8.80206L15.8303 7.66015C15.3063 7.2138 14.5665 7.12332 13.9503 7.43023L14.6191 8.77288ZM14.8434 8.78961L18.1494 11.7526L19.1506 10.6356L15.8446 7.67259L14.8434 8.78961ZM18.1431 11.7469C18.2108 11.809 18.2494 11.8967 18.2494 11.9886H19.7494C19.7494 11.4763 19.5345 10.9876 19.1569 10.6413L18.1431 11.7469ZM18.2494 11.9886C18.2494 12.0805 18.2108 12.1682 18.1431 12.2303L19.1569 13.3359C19.5345 12.9896 19.7494 12.5009 19.7494 11.9886H18.2494ZM18.1493 12.2247L14.8433 15.1887L15.8447 16.3055L19.1507 13.3415L18.1493 12.2247ZM14.8577 15.1762C14.7912 15.2328 14.6973 15.2443 14.6191 15.2053L13.9503 16.548C14.5665 16.8549 15.3063 16.7644 15.8303 16.3181L14.8577 15.1762ZM14.6191 15.2053C14.5409 15.1664 14.4935 15.0845 14.4987 14.9973L13.0013 14.9089C12.9607 15.596 13.3342 16.2411 13.9503 16.548L14.6191 15.2053ZM14.5 14.9531V11.9891H13V14.9531H14.5ZM13.75 11.2391H5V12.7391H13.75V11.2391Z"
+                                            fill="#000000" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[75%] pl-2 flex-col justify-center">
+                                <h1 class="font-semibold text-lg flex">Musique, Plongée sous-marine ...</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
 

@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CoN_2lxH.css",
+    "file": "assets/app-Cf1ol8r5.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -13,6 +13,26 @@
     "file": "assets/carte-l0sNRNKZ.js",
     "src": "resources/img/carte.jpeg",
     "isEntry": true
+  },
+  "resources/img/chocolatein/accueil.png": {
+    "file": "assets/accueil-Ba1n90y_.png",
+    "src": "resources/img/chocolatein/accueil.png"
+  },
+  "resources/img/chocolatein/horaires.png": {
+    "file": "assets/horaires-Cw3BHvEu.png",
+    "src": "resources/img/chocolatein/horaires.png"
+  },
+  "resources/img/nolark/nolark2.png": {
+    "file": "assets/nolark2-DrQJ71ju.png",
+    "src": "resources/img/nolark/nolark2.png"
+  },
+  "resources/img/nolark/nolarkaccueil.png": {
+    "file": "assets/nolarkaccueil-BwBlSBG1.png",
+    "src": "resources/img/nolark/nolarkaccueil.png"
+  },
+  "resources/img/nolark/nolarkcasque.png": {
+    "file": "assets/nolarkcasque-C7RrVFRm.png",
+    "src": "resources/img/nolark/nolarkcasque.png"
   },
   "resources/img/photodemoi.jpg": {
     "file": "assets/photodemoi-l0sNRNKZ.js",
