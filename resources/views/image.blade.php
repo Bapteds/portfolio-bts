@@ -1,6 +1,6 @@
 @extends('base')
 @section('content')
-    <div class="h-[100vh] w-[100%] items-center flex justify-center overflow-y-scroll">
+    <div class="h-[100vh] w-[100%] items-center flex justify-center ">
         <div class="w-[90%] h-[90vh] flex flex-row justify-around items-center rounded-md shadow-sm ">
             <div class="w-[95%] h-[100%] flex items-center bg-light-gray rounded-md flex-col">
                 <div class="h-[6%] w-[95%] bg-light-gray rounded-t-md flex flex-row">

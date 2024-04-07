@@ -1,6 +1,6 @@
 @extends('base')
 @section('content')
-    <div class="h-[151vh] w-[100%] overflow-y-scroll">
+    <div class="h-[151vh] w-[99%]">
         <!-- Première page -->
         <div class="h-[100vh] w-[100%] flex flex-row ">
             <div class="h-[100vh]  w-[50%] flex flex-col items-center justify-around">
@@ -14,8 +14,8 @@
                                 src="{{ asset('build/assets/photodemoi-Ca4OGyzb.jpg') }}"></div>
                     </div>
                     <div class="h-[90%] w-[57%] bg-light-black rounded-md flex justify-center flex-col items-center ">
-                        <section class="h-[80%] w-[90%] overflow-y-scroll">
-                            <article class="font-normal text-white tracking-wide text-justify pt-3 leading-5">
+                        <section class="h-[80%] w-[90%] overflow-y-auto">
+                            <article class="font-normal text-white tracking-wide text-justify p-2 leading-4 ">
                                 Depuis mon plus jeune âge, je suis passioné d'informatique et d'éléctronique en tout
                                 genre.<br><br>
                                 Je suis actuellement en préparation d'un BTS Service Informatique aux organisations Option
@@ -37,11 +37,11 @@
                         class="h-[40%] w-[90%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[25%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
                             <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -49,100 +49,125 @@
                             </div>
                         </div>
                         <div
-                            class="h-[60%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-row space-x-6 pl-2 pr-2 overflow-x-scroll">
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/HTML.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>
+                            class="h-[60%] w-[95%] bg-light-black items-center border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-row space-x-6 pl-2 pr-2 overflow-x-auto">
+                            <div
+                                class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/HTML.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
                                 </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/CSS.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Java-Dark.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/JavaScript.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Kafka.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Laravel-Dark.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/PHP-Dark.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Python-Dark.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                </div>
-                                <div class="max-w-[12%] min-w-[12%] pt-3 flex items-center  justify-between flex-col">
-                                    <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/TailwindCSS-Dark.svg') }}">
-                                    <div class="w-[100%] h-[30%] flex flex-row pt-1">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                        <img class="w-6 h-6 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
-                                    </div>                                   </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">  
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/CSS.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Java-Dark.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/JavaScript.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/Kafka.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] "
+                                    src="{{ Vite::asset('resources/img/svg/Laravel-Dark.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] " src="{{ Vite::asset('resources/img/svg/PHP-Dark.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] "
+                                    src="{{ Vite::asset('resources/img/svg/Python-Dark.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            <div  class="max-w-[25%] min-w-[12%] h-[70%]   flex items-center  justify-between flex-col">
+                                <img class="h-[60%] w-[100%] "
+                                    src="{{ Vite::asset('resources/img/svg/TailwindCSS-Dark.svg') }}">
+                                <div class="w-[100%] h-[30%] flex flex-row pt-1">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 "
+                                        src="{{ Vite::asset('resources/img/svg/etoile_colored.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                    <img class="w-4 h-5 " src="{{ Vite::asset('resources/img/svg/etoile.svg') }}">
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                     <div
                         class="h-[40%] w-[90%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[25%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
                             <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -226,11 +251,11 @@
                         class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                         <div class="h-[5%] w-[95%] bg-light-gray rounded-t-md flex flex-row">
                             <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
-                                <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-yellow-400 flex items-center justify-center">
                                 </div>
-                                <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                                <div class="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center">
                                 </div>
                             </div>
                             <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -247,7 +272,8 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg text-button-vio  flex">BTS Service Informatique aux Organisations
+                                    <h1 class="font-semibold text-lg text-button-vio  flex">BTS Service Informatique aux
+                                        Organisations
                                     </h1>
                                     <h3 class="text-blanc">Lycée Bonaparte - Toulon</h3>
                                 </div>
@@ -272,7 +298,8 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg text-button-vio flex">Baccalauréat - Mathématiques / Informatique
+                                    <h1 class="font-semibold text-lg text-button-vio flex">Baccalauréat - Mathématiques /
+                                        Informatique
                                     </h1>
                                     <h3 class="text-blanc">Lycée Constebelle - Hyères | Metion <span
                                             class="underline">Assez Biens</span></h3>
@@ -298,7 +325,8 @@
                                     </div>
                                 </div>
                                 <div class="w-[75%] pl-2 flex-col justify-center">
-                                    <h1 class="font-semibold text-lg text-button-vio flex">Niveau 1 de plongée sous marine </h1>
+                                    <h1 class="font-semibold text-lg text-button-vio flex">Niveau 1 de plongée sous marine
+                                    </h1>
                                     <h3 class="text-blanc">Club Nautica - Toulon</h3>
                                 </div>
                             </div>
@@ -314,11 +342,11 @@
                 <div class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                     <div class="h-10 w-[95%] bg-light-gray rounded-t-md flex flex-row">
                         <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
-                            <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
                             </div>
-                            <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-yellow-400 flex items-center justify-center">
                             </div>
-                            <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center">
                             </div>
                         </div>
                         <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -326,8 +354,7 @@
                         </div>
                     </div>
                     <div
-                        class="h-[90%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-6 space-y-4">
-
+                        class="h-[85%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-6 space-y-4">
                         <div
                             class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
                             <div class="flex flex-row w-[25%] h-[90%] items-center">
@@ -336,7 +363,8 @@
                                 </div>
                             </div>
                             <div class="w-[75%] pl-2 flex-col justify-center">
-                                <h1 class="font-semibold text-lg text-button-vio flex">Alternance - État-major Force Aéronautique
+                                <h1 class="font-semibold text-lg text-button-vio flex">Alternance - État-major Force
+                                    Aéronautique
                                     Navale
                                     (ALAVIA) </h1>
                                 <h3 class="text-blanc">Marine Nationale - Toulon</h3>
@@ -374,11 +402,11 @@
                 <div class="h-[95%] w-[95%] flex flex-col rounded-md shadow-sm bg-light-black justify-center items-center">
                     <div class="h-10 w-[95%] bg-light-gray rounded-t-md flex flex-row">
                         <div class="w-24 flex flew-row items-center justify-around text-center pl-2">
-                            <div class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
                             </div>
-                            <div class="w-5 h-5 rounded-full bg-yellow-400 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-yellow-400 flex items-center justify-center">
                             </div>
-                            <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center">
+                            <div class="w-4 h-4 rounded-full bg-green-500 flex items-center justify-center">
                             </div>
                         </div>
                         <div class="w-[77%] flex items-center pl-2 font-semibold text-gray-200">
@@ -386,10 +414,10 @@
                         </div>
                     </div>
                     <div
-                        class="h-[90%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-6 space-y-4 overflow-y-scroll">
+                        class="h-[85%] w-[95%] bg-light-black border-b-2 border-x-2 border-light-gray rounded-b-md flex flex-col items-center justify-start pt-4 space-y-4">
 
                         <div
-                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-12  items-center">
                             <div class="flex flex-row w-[15%] h-[90%] items-center">
                                 <div class="flex flew-row items-center justify-around pl-2">
                                     <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
@@ -405,7 +433,7 @@
                             </div>
                         </div>
                         <div
-                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-12  items-center">
                             <div class="flex flex-row w-[15%] h-[90%] items-center">
                                 <div class="flex flew-row items-center justify-around pl-2">
                                     <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
@@ -417,11 +445,12 @@
                                 </div>
                             </div>
                             <div class="w-[75%] pl-2 flex-col justify-center">
-                                <h1 class="font-semibold text-lg text-blanc flex">Éléctronique, Maçonerie, Plomberie ... </h1>
+                                <h1 class="font-semibold text-lg text-blanc flex">Éléctronique, Maçonerie, Plomberie ...
+                                </h1>
                             </div>
                         </div>
                         <div
-                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-12  items-center">
                             <div class="flex flex-row w-[15%] h-[90%] items-center">
                                 <div class="flex flew-row items-center justify-around pl-2">
                                     <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
@@ -438,7 +467,7 @@
                             </div>
                         </div>
                         <div
-                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-12  items-center">
                             <div class="flex flex-row w-[15%] h-[90%] items-center">
                                 <div class="flex flew-row items-center justify-around pl-2">
                                     <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"
@@ -454,7 +483,7 @@
                             </div>
                         </div>
                         <div
-                            class="w-[95%] flex flex-row border-4 rounded-lg shadow-md border-light-gray h-24  items-center">
+                            class="w-[95%]  flex flex-row border-4 rounded-lg shadow-md border-light-gray h-12  items-center">
                             <div class="flex flex-row w-[15%] h-[90%] items-center">
                                 <div class="flex flew-row items-center justify-around pl-2">
                                     <svg class="h-10 w-10" viewBox="0 0 24 24" fill="none"

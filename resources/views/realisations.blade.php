@@ -1,11 +1,11 @@
 @extends('base')
 @section('content')
-    <div class=" w-[100%]  overflow-y-scroll flex justify-center ">
+    <div class=" w-[100%] h-[300vh] flex flex-col justify-center ">
         <div class="h-[100%] w-[98%] flex flex-col items-center  space-y-8 pt-3 pb-3 ">
             <div class="w-[95%] text-left uppercase font-semibold text-button-vio text-3xl pt-2">
                 <h1>Mes réalisations:</h1>
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[100%] flex justify-center items-center">
                     <div class="h-[90%] w-[99%]  flex items-center justify-center  rounded-md">
                         <div id="default-carousel" class="relative w-full h-[100%] bg-light-black rounded-md"
@@ -61,21 +61,27 @@
                 </div>
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'nolark') }}" >Nolark</a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Site vitrine Nolark : un site vitrine pour une entreprise de vente de casques. Celui-ci a été conçu pour toucher une clientèle plus large et proposer un catalogue complet de casques. Le projet a été développé durant le BTS et permet d'apprendre les bases du HTML, du CSS et du JavaScript.</h1>
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'nolark') }}">Nolark</a>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Site vitrine
+                            Nolark : un site vitrine pour une entreprise de vente de casques. Celui-ci a été conçu pour
+                            toucher une clientèle plus large et proposer un catalogue complet de casques. Le projet a été
+                            développé durant le BTS et permet d'apprendre les bases du HTML, du CSS et du JavaScript.</h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> PHP, HTML,
                             CSS, JavaScript, Versionnage </h2>
                     </div>
                 </div>
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'chocolatein') }}" >Chocolate'In</a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Site vitrine Chocolate'In : un site vitrine pour une entreprise de vente de chocolat. Il permet aux utilisateurs de naviguer sur le site et de découvrir des chocolats. Le projet a été développé durant le BTS et permet d'apprendre les bases du HTML, du CSS, du PHP et du SQL.</h1>
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'chocolatein') }}">Chocolate'In</a>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Site vitrine
+                            Chocolate'In : un site vitrine pour une entreprise de vente de chocolat. Il permet aux
+                            utilisateurs de naviguer sur le site et de découvrir des chocolats. Le projet a été développé
+                            durant le BTS et permet d'apprendre les bases du HTML, du CSS, du PHP et du SQL.</h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> PHP, HTML,
                             CSS, Mysql, Versionnage </h2>
@@ -132,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[100%] flex justify-center items-center">
                     <div class="h-[90%] w-[99%]  flex items-center justify-center  rounded-md">
                         <div id="default-carousel" class="relative w-full h-[100%] bg-light-black rounded-md"
@@ -188,22 +194,29 @@
                 </div>
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'gsb') }}" >Galaxy Swiss Bourdin
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'gsb') }}">Galaxy Swiss Bourdin
                         </a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Site métier GSB : un site pour une entreprise permettant la gestion des frais. Il simplifie le travail de l'entreprise et offre un outil aux visiteurs pour renseigner leurs frais et se faire rembourser par la suite. Le projet a été développé durant le BTS et permet d'apprendre les bases du HTML, du CSS, du JavaScript, du PHP et de MySQL.</h1>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Site métier GSB :
+                            un site pour une entreprise permettant la gestion des frais. Il simplifie le travail de
+                            l'entreprise et offre un outil aux visiteurs pour renseigner leurs frais et se faire rembourser
+                            par la suite. Le projet a été développé durant le BTS et permet d'apprendre les bases du HTML,
+                            du CSS, du JavaScript, du PHP et de MySQL.</h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> PHP, HTML,
                             CSS, Mysql, JavaScript, Versionnage </h2>
                     </div>
                 </div>
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'mdl') }}" >Maison des ligues</a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Maison des ligues, ou MDL, est une plateforme en ligne utile à la gestion des inscriptions à des congrès. Elle permet aux utilisateurs de faire des réservations sur plusieurs jours avec, pendant cette période, des activités.</h1>
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'mdl') }}">Maison des ligues</a>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Maison des
+                            ligues, ou MDL, est une plateforme en ligne utile à la gestion des inscriptions à des congrès.
+                            Elle permet aux utilisateurs de faire des réservations sur plusieurs jours avec, pendant cette
+                            période, des activités.</h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> PHP, HTML,
                             CSS, Mysql, Versionnage </h2>
@@ -257,7 +270,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[100%] flex justify-center items-center">
                     <div class="h-[90%] w-[99%]  flex items-center justify-center  rounded-md">
                         <div id="default-carousel" class="relative w-full h-[100%] bg-light-black rounded-md"
@@ -333,10 +346,14 @@
                 </div>
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'capat') }}" >CAPAT
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'capat') }}">CAPAT
                         </a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Capat est un logiciel de suivi et de prévision des indisponibilités des capacités des ateliers de maintenance des aéronefs. Dans l'application, on retrouve une gestion complète des utilisateurs, un système de messagerie, un chat en temps réel, des indicateurs et des interfaces CRUD pour la gestion des ressources.</h1>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Capat est un
+                            logiciel de suivi et de prévision des indisponibilités des capacités des ateliers de maintenance
+                            des aéronefs. Dans l'application, on retrouve une gestion complète des utilisateurs, un système
+                            de messagerie, un chat en temps réel, des indicateurs et des interfaces CRUD pour la gestion des
+                            ressources.</h1>
                         </h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> Laravel,
@@ -344,13 +361,13 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="{{ route('realisations.image', 'vols') }}" >Gestion des vols
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="{{ route('realisations.image', 'vols') }}">Gestion des vols
                         </a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Application de
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Application de
                             gestion des vols, s'appuyant sur l'architecture de Mycelium. Dans laquelle on retrouve des
                             interfaces CRUD, pour la saisie des aéronefs, des pilotes, et des demandes de vol.
                             L'application a pour but de montrer le fonctionnement de Mycelium, en utilisant des données
@@ -414,12 +431,14 @@
                 </div>
 
             </div>
-            <div class="w-[90%] h-96 bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
+            <div class="w-[90%] h-[350px] bg-light-gray flex flex-row justify-around items-center rounded-md shadow-sm ">
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="#" >Mycelium</a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Mycelium est un ensemble de logiciels permettant la centralisation, la transformation et la redistribution des données entre les services. L'architecture s'appuie sur SystemD, Kafka et Grafana..
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="#">Mycelium</a>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Mycelium est un
+                            ensemble de logiciels permettant la centralisation, la transformation et la redistribution des
+                            données entre les services. L'architecture s'appuie sur SystemD, Kafka et Grafana..
                         </h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> Linux,
@@ -428,9 +447,10 @@
                 </div>
                 <div class="w-[47%] h-[90%] rounded-md flex items-center justify-center bg-light-black">
                     <div class="w-[93%] h-[85%] flex items-center justify-center flex-col space-y-3  ">
-                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-3xl"
-                            href="#" >Mon Portfolio</a>
-                        <h1 class="text-white text-xl tracking-wide text-justify w-[95%] leading-relaxed">Mon portfolio, c'est simplement le site sur lequel vous vous trouvez.  </h1>
+                        <a class="font-bold underline hover:text-gray-300 duration-200 uppercase text-start w-[95%] text-button-vio text-2xl"
+                            href="#">Mon Portfolio</a>
+                        <h1 class="text-white text-md tracking-wide text-justify w-[95%] leading-relaxed">Mon portfolio,
+                            c'est simplement le site sur lequel vous vous trouvez. </h1>
                         <h2 class="text-gray-300 text-left w-[95%] pt-1"><span
                                 class="text-button-vio uppercase font-bold text-lg">Téchnologies :</span> <br> PHP,
                             Laravel, Tailwind </h2>
