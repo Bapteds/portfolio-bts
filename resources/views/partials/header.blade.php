@@ -16,7 +16,7 @@
             <a href="{{route('realisations')}}" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200 {{Route::is('realisations') ?'text-button-vio font-bold' :'' }}">Mes réalisations</a>
         </div>
         <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
-            <a href="#" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200">Ma veille technologique</a>
+            <a href="{{route('veille-techno')}}" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200 {{Route::is('veille-techno') ?'text-button-vio font-bold' :'' }}">Ma veille technologique</a>
         </div>
         <div class="text-white w-[80%] h-[10%] flex justify-left items-center ">
             <a href="mailto:eradesbapt@gmail.com" class="hover:scale-105 hover:text-button-vio hover:font-bold duration-200">Me contacter</a>
@@ -24,10 +24,9 @@
     </div>
     <div class="h-[15%] w-[100%] flex items-center justify-center">
         <div class="h-[80%] w-[100%] flex justify-around items-center">
-            <a>Git</a>
-            <a>Git</a>
-            <a>Git</a>
-            <a>Git</a>
+            <a target="_blanck" href="https://github.com/Bapteds"><img class="w-9" src="{{ Vite::asset('resources/img/svg/github.svg') }}"></a>
+            <a target="_blanck" href="https://www.instagram.com/bapt_eds/?hl=fr"><img class="w-9" src="{{ Vite::asset('resources/img/svg/instagram.svg') }}"></a>
+            <a target="_blanck" href="https://www.linkedin.com/in/baptiste-erades-b41794296/"><img class="w-9" src="{{ Vite::asset('resources/img/svg/linkedin.svg') }}"></a>
         </div>
     </div>
 </div>

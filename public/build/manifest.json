@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-Cf1ol8r5.css",
+    "file": "assets/app-DU01NrJr.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,6 +8,34 @@
     "file": "assets/background-l0sNRNKZ.js",
     "src": "resources/img/background.jpg",
     "isEntry": true
+  },
+  "resources/img/capat/auth.png": {
+    "file": "assets/auth-Da6-0OvC.png",
+    "src": "resources/img/capat/auth.png"
+  },
+  "resources/img/capat/chat.png": {
+    "file": "assets/chat-C2DBM5Ax.png",
+    "src": "resources/img/capat/chat.png"
+  },
+  "resources/img/capat/formations.png": {
+    "file": "assets/formations-BqOK7fEm.png",
+    "src": "resources/img/capat/formations.png"
+  },
+  "resources/img/capat/ingredient.png": {
+    "file": "assets/ingredient-CoQdl8Yu.png",
+    "src": "resources/img/capat/ingredient.png"
+  },
+  "resources/img/capat/modifingre.png": {
+    "file": "assets/modifingre-CTaq7xZg.png",
+    "src": "resources/img/capat/modifingre.png"
+  },
+  "resources/img/capat/role.png": {
+    "file": "assets/role-CHA7IAUE.png",
+    "src": "resources/img/capat/role.png"
+  },
+  "resources/img/capat/user.png": {
+    "file": "assets/user-DjC0nrjY.png",
+    "src": "resources/img/capat/user.png"
   },
   "resources/img/carte.jpeg": {
     "file": "assets/carte-l0sNRNKZ.js",
@@ -21,6 +49,18 @@
   "resources/img/chocolatein/horaires.png": {
     "file": "assets/horaires-Cw3BHvEu.png",
     "src": "resources/img/chocolatein/horaires.png"
+  },
+  "resources/img/gsb/connexiongsb.png": {
+    "file": "assets/connexiongsb-BjPAJtCJ.png",
+    "src": "resources/img/gsb/connexiongsb.png"
+  },
+  "resources/img/gsb/listefichefrais.png": {
+    "file": "assets/listefichefrais-B_SveCir.png",
+    "src": "resources/img/gsb/listefichefrais.png"
+  },
+  "resources/img/gsb/renseigner.png": {
+    "file": "assets/renseigner-vXxbOe1q.png",
+    "src": "resources/img/gsb/renseigner.png"
   },
   "resources/img/nolark/nolark2.png": {
     "file": "assets/nolark2-DrQJ71ju.png",
@@ -39,9 +79,90 @@
     "src": "resources/img/photodemoi.jpg",
     "isEntry": true
   },
+  "resources/img/pp_yt/frandroid.webp": {
+    "file": "assets/frandroid-BHksQ2No.webp",
+    "src": "resources/img/pp_yt/frandroid.webp"
+  },
+  "resources/img/pp_yt/les_numeriques.png": {
+    "file": "assets/les_numeriques-D80ueKbk.png",
+    "src": "resources/img/pp_yt/les_numeriques.png"
+  },
+  "resources/img/pp_yt/youtube.png": {
+    "file": "assets/youtube-CHEJVe3b.png",
+    "src": "resources/img/pp_yt/youtube.png"
+  },
+  "resources/img/svg/CSS.svg": {
+    "file": "assets/CSS-BLrvEGzz.svg",
+    "src": "resources/img/svg/CSS.svg"
+  },
+  "resources/img/svg/HTML.svg": {
+    "file": "assets/HTML-MjAzpSyw.svg",
+    "src": "resources/img/svg/HTML.svg"
+  },
+  "resources/img/svg/Java-Dark.svg": {
+    "file": "assets/Java-Dark-Cuf-LAw6.svg",
+    "src": "resources/img/svg/Java-Dark.svg"
+  },
+  "resources/img/svg/JavaScript.svg": {
+    "file": "assets/JavaScript-BL-f2DeX.svg",
+    "src": "resources/img/svg/JavaScript.svg"
+  },
+  "resources/img/svg/Kafka.svg": {
+    "file": "assets/Kafka-D_Pdm9Kk.svg",
+    "src": "resources/img/svg/Kafka.svg"
+  },
+  "resources/img/svg/Laravel-Dark.svg": {
+    "file": "assets/Laravel-Dark-nKubYmm-.svg",
+    "src": "resources/img/svg/Laravel-Dark.svg"
+  },
+  "resources/img/svg/PHP-Dark.svg": {
+    "file": "assets/PHP-Dark-EdO_S8U8.svg",
+    "src": "resources/img/svg/PHP-Dark.svg"
+  },
+  "resources/img/svg/Python-Dark.svg": {
+    "file": "assets/Python-Dark-38hLwj2U.svg",
+    "src": "resources/img/svg/Python-Dark.svg"
+  },
+  "resources/img/svg/TailwindCSS-Dark.svg": {
+    "file": "assets/TailwindCSS-Dark-Bk95euno.svg",
+    "src": "resources/img/svg/TailwindCSS-Dark.svg"
+  },
+  "resources/img/svg/apple-2.svg": {
+    "file": "assets/apple-2-BItsGpoN.svg",
+    "src": "resources/img/svg/apple-2.svg"
+  },
+  "resources/img/svg/etoile.svg": {
+    "file": "assets/etoile-slmgl6wL.svg",
+    "src": "resources/img/svg/etoile.svg"
+  },
+  "resources/img/svg/etoile_colored.svg": {
+    "file": "assets/etoile_colored-CKyR84cF.svg",
+    "src": "resources/img/svg/etoile_colored.svg"
+  },
+  "resources/img/svg/github.svg": {
+    "file": "assets/github-QpYQ9fJQ.svg",
+    "src": "resources/img/svg/github.svg"
+  },
+  "resources/img/svg/instagram.svg": {
+    "file": "assets/instagram-Beks89Ng.svg",
+    "src": "resources/img/svg/instagram.svg"
+  },
+  "resources/img/svg/intel.svg": {
+    "file": "assets/intel-CeMMezOJ.svg",
+    "src": "resources/img/svg/intel.svg"
+  },
+  "resources/img/svg/linkedin.svg": {
+    "file": "assets/linkedin-DsAlMH1b.svg",
+    "src": "resources/img/svg/linkedin.svg"
+  },
   "resources/js/app.js": {
     "file": "assets/app-D2jpX1vH.js",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/flowbite.js": {
+    "file": "assets/flowbite-D1oKqrv_.js",
+    "src": "resources/js/flowbite.js",
     "isEntry": true
   }
 }

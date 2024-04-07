@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ImagesController;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Vite;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +37,11 @@ Route::controller(ImagesController::class)->group(function(){
     Route::get('/realisation/image/{real}','index')->name('realisations.image');
 });
 
+Route::get('/mon-cv-pdf',function(){
+    $file = public_path('BAPTISTE-CV.pdf');
+    return Response::download($file,'BATISTE-ERADES.pdf');
+})->name('get-cv');
+
+Route::get('/ma-veille-technologique',function(){
+    return view('veille-techno');
+})->name('veille-techno');
