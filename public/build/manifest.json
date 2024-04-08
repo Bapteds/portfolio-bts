@@ -42,6 +42,22 @@
     "src": "resources/img/carte.jpeg",
     "isEntry": true
   },
+  "resources/img/chat/index.png": {
+    "file": "assets/index-C1SV9djQ.png",
+    "src": "resources/img/chat/index.png"
+  },
+  "resources/img/chat/message.png": {
+    "file": "assets/message-HKQpESQK.png",
+    "src": "resources/img/chat/message.png"
+  },
+  "resources/img/chat/notif.png": {
+    "file": "assets/notif-BxnrjEIa.png",
+    "src": "resources/img/chat/notif.png"
+  },
+  "resources/img/chat/search.png": {
+    "file": "assets/search-rH-hrG0g.png",
+    "src": "resources/img/chat/search.png"
+  },
   "resources/img/chocolatein/accueil.png": {
     "file": "assets/accueil-Ba1n90y_.png",
     "src": "resources/img/chocolatein/accueil.png"
@@ -61,6 +77,10 @@
   "resources/img/gsb/renseigner.png": {
     "file": "assets/renseigner-vXxbOe1q.png",
     "src": "resources/img/gsb/renseigner.png"
+  },
+  "resources/img/mdl/authmdl.png": {
+    "file": "assets/authmdl-CYyAx_uq.png",
+    "src": "resources/img/mdl/authmdl.png"
   },
   "resources/img/nolark/nolark2.png": {
     "file": "assets/nolark2-DrQJ71ju.png",
@@ -140,11 +160,11 @@
     "src": "resources/img/svg/etoile_colored.svg"
   },
   "resources/img/svg/github.svg": {
-    "file": "assets/github-QpYQ9fJQ.svg",
+    "file": "assets/github-rgJSor2l.svg",
     "src": "resources/img/svg/github.svg"
   },
   "resources/img/svg/instagram.svg": {
-    "file": "assets/instagram-Beks89Ng.svg",
+    "file": "assets/instagram-C9o7kybE.svg",
     "src": "resources/img/svg/instagram.svg"
   },
   "resources/img/svg/intel.svg": {
@@ -152,8 +172,28 @@
     "src": "resources/img/svg/intel.svg"
   },
   "resources/img/svg/linkedin.svg": {
-    "file": "assets/linkedin-DsAlMH1b.svg",
+    "file": "assets/linkedin-vHhf8O5s.svg",
     "src": "resources/img/svg/linkedin.svg"
+  },
+  "resources/img/vols/accueil.png": {
+    "file": "assets/accueil-CDOlmic2.png",
+    "src": "resources/img/vols/accueil.png"
+  },
+  "resources/img/vols/aeronef.png": {
+    "file": "assets/aeronef-Df7hgNEp.png",
+    "src": "resources/img/vols/aeronef.png"
+  },
+  "resources/img/vols/capacite.png": {
+    "file": "assets/capacite-BzHY_EEd.png",
+    "src": "resources/img/vols/capacite.png"
+  },
+  "resources/img/vols/formation.png": {
+    "file": "assets/formation-C_WKL9tS.png",
+    "src": "resources/img/vols/formation.png"
+  },
+  "resources/img/vols/pilotes.png": {
+    "file": "assets/pilotes--8lS7Syf.png",
+    "src": "resources/img/vols/pilotes.png"
   },
   "resources/js/app.js": {
     "file": "assets/app-D2jpX1vH.js",

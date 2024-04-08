@@ -24,6 +24,7 @@ Route::get('/', function () {
 Route::get('/mon-cv', function(){
     return view('cv');
 })->name('cv');
+
 /*
 Route::get('/mon-bts', function(){
     return view('bts');

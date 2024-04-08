@@ -445,7 +445,7 @@
                                 </div>
                             </div>
                             <div class="w-[75%] pl-2 flex-col justify-center">
-                                <h1 class="font-semibold text-lg text-blanc flex">Éléctronique, Maçonerie, Plomberie ...
+                                <h1 class="font-semibold text-lg text-blanc flex">Éléctronique, Maçonerie ...
                                 </h1>
                             </div>
                         </div>
