@@ -1,6 +1,6 @@
 @extends('base')
 @section('content')
-    <div class="h-[100vh] w-[100%] flex flex-row justify-around items-center">
+    <div class="h-[100vh] w-[100%] flex flex-row justify-around items-center bg-red-200">
         <div class="h-[90%] w-[45%] bg-light-gray rounded-md shadow-md flex flex-col items-center justify-around">
             <div class="bg-light-black h-[45%] w-[95%] rounded-md flex flex-col items-center justify-around">
                 <div class="flex flex-col space-y-3 items-center justify-center h-[100%] w-[100%] ">

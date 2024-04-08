@@ -13,9 +13,8 @@
         <!-- Styles -->
         @vite(['resources/css/app.css','resources/js/flowbite.js'])
     </head>
-    <body class="flex flex-row w-[205vh] h-[100vh] bg-light-black">
-        <div class="h-[100%] w-[15%]"></div>
-        <div class="h-[100%] bg-light-gray w-[15%] fixed">@include('partials.header')</div>
-        <div class="h-[100%] w-[84%] flex">@yield('content')</div>
+    <body class="flex h-[100vh] bg-light-black">
+        <div class="h-[100%] bg-light-gray w-[15%] fixed inset-0">@include('partials.header')</div>
+        <div class="h-[100%] w-[85%] ml-[15%] flex">@yield('content')</div>
     </body>
 </html>

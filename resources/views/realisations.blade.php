@@ -1,6 +1,6 @@
 @extends('base')
 @section('content')
-    <div class=" w-[100%] h-[300vh] flex flex-col justify-center ">
+    <div class=" w-[100%] h-[2733px] flex flex-col justify-center ">
         <div class="h-[100%] w-[98%] flex flex-col items-center  space-y-8 pt-3 pb-3 ">
             <div class="w-[95%] text-left uppercase font-semibold text-button-vio text-3xl pt-2">
                 <h1>Mes réalisations:</h1>
